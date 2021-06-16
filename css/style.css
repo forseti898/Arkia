@@ -2,7 +2,13 @@
 .section-1{
     margin: 50px auto;
 }
-
+.section-2{
+    margin: 50px auto;
+}
+.section-3{
+    margin: 80px auto;
+    
+}
 .text-1{
    display: flex;
    justify-content: space-between;
@@ -21,4 +27,42 @@
     text-align: justify;
     display: inline-block;
     
+}
+
+.btn-primary{
+    display: block;
+    position: absolute;
+    top: 298px;
+    left:56px;
+}
+
+.lh-1{
+    text-align: justify;
+    margin: 20px;
+}
+
+.text-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-2 .img{
+    margin: 20px;
+}
+.text-2 .img img{
+    width: 400px;
+    height: 300px;
+}
+
+.text-2 .tx {
+   padding-top: 60px ;
+   padding-left: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 120px 2%;
 }
