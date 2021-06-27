@@ -9,6 +9,15 @@
     margin: 80px auto;
     
 }
+
+ h1{
+     font-size: 30px;
+    font-weight: bold;
+    color:#053e88;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    margin-right: 550px;
+    margin-left: 20px;
+}
 .text-1{
    display: flex;
    justify-content: space-between;
@@ -32,7 +41,7 @@
 .btn-primary{
     display: block;
     position: absolute;
-    top: 298px;
+    top: 250px;
     left:56px;
 }
 
@@ -60,9 +69,30 @@
 }
 .cards{
     display: flex;
-    justify-content: space-between;
 }
 
-footer{
-    padding: 120px 2%;
+
+
+footer form{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(230, 232, 238);
 }
+
+footer form button{
+    width: 160PX;
+    background-color: rgb(62, 150, 250);
+    margin-top: 20px;
+    color: cornsilk;
+}
+
+footer form button:hover{
+    background-color: rgb(31, 136, 255);
+}
+
+footer form label{
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+}
+
